@@ -46,18 +46,13 @@ def load_splits() -> dict[str, list[dict]]:
 
 
 def build_supporting_titles(splits: dict[str, list[dict]]) -> dict[str, set[str]]:
-    """Construit qid -> set(titres supporting normalisés).
-
-    On considère comme 'supporting' les paragraphes dont le titre apparaît
-    dans la question ou qui sont marqués comme pertinents. Ici, on utilise
-    tous les titres de paragraphes de la question comme supporting potentiels.
-    """
+    """Construit qid -> set(titres supporting normalisés) depuis le champ 'supporting'."""
     supporting = defaultdict(set)
     for split_name, questions in splits.items():
         for ex in questions:
             qid = ex["id"]
-            for p in ex["paragraphs"]:
-                norm_title = normalize_entity(p["title"])
+            for s in ex.get("supporting", []):
+                norm_title = normalize_entity(s["title"])
                 supporting[qid].add(norm_title)
     return supporting
 

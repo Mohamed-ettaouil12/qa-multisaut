@@ -6,8 +6,8 @@
 - **Triplets/question (moy)** : 9.55
 - **Triplets/question (min)** : 1
 - **Triplets/question (max)** : 32
-- **Taux de positifs (label=1)** : 1.0000 (1872/1872)
-- **% questions sans positif** : 90.20% (1804/2000)
+- **Taux de positifs (label=1)** : 0.1923 (360/1872)
+- **% questions sans positif** : 93.00% (1860/2000)
 
 ## Relations uniques
 - "high school musical" trilogy
