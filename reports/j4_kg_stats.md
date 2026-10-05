@@ -1,805 +1,3978 @@
 # Statistiques KG - J4
 
-- **Total triplets** : 1872
-- **Nœuds uniques (entités)** : 1774
-- **Relations uniques** : 793
-- **Triplets/question (moy)** : 9.55
+- **Total triplets** : 11110
+- **Nœuds uniques (entités)** : 9429
+- **Relations uniques** : 3966
+- **Triplets/question (moy)** : 9.48
 - **Triplets/question (min)** : 1
-- **Triplets/question (max)** : 32
-- **Taux de positifs (label=1)** : 0.1923 (360/1872)
-- **% questions sans positif** : 93.00% (1860/2000)
+- **Triplets/question (max)** : 40
+- **Taux de positifs (label=1)** : 0.1944 (2160/11110)
+- **% questions sans positif** : 58.70% (1174/2000)
 
 ## Relations uniques
+- "harry potter" series
 - "high school musical" trilogy
+- 1 april 1961
+- 1 december 1955
+- 1 july 1742
+- 1 july 1987
 - 1 may 1946
+- 1 may 1982
+- 1 may 2008
+- 1 october 1939
+- 10 april 1586
+- 10 april 1972
+- 10 april 1975
+- 10 december 1972
+- 10 january 1994
+- 10 july 1961
+- 10 november 1989
+- 10 october 1963
+- 10 october 1969
+- 10 october 2015
 - 1017 records
 - 10cc
+- 11 december 1966
+- 11 january 1956
+- 11 july 1958
+- 11 march 1976
+- 11 march 2011
 - 11 may 1954
 - 11 may 1988
+- 11 october 1957
+- 113th united states congress
 - 1140
+- 12
+- 12 april 1954
+- 12 august 1973
+- 12 february 1923
+- 12 february 1974
+- 12 february 1997
+- 12 may 1964
 - 12.08
+- 13 april 1955
 - 13 april 1988
 - 13 august 1960
+- 13 december 1952
+- 13 december 1966
+- 13 june 1910
+- 13 september 1965
 - 1306
+- 14 april 1948
+- 14 april 1969
+- 14 august 1968
+- 14 december 1976
+- 14 january 1977
 - 14 march 1692
+- 14 march 1955
 - 14 march 1987
+- 14 may 1997
+- 14, 1981
+- 14, 1994
+- 1428
+- 1478
+- 15 april 1990
+- 15 december 1998
 - 15 july 1963
+- 15 july 1989
+- 15 june 1944
 - 15 november 1941
+- 1515
+- 1541
+- 1560
+- 16
+- 16 august 1940
+- 16 january 1968
+- 16 may 1832
+- 16 november 1901
+- 16 november 1974
+- 16 september 1943
+- 1628
+- 1660
 - 17 august 1993
+- 17 february 1969
+- 17 february 1978
+- 17 february 1991
 - 17 january 1938
+- 17 january 1969
+- 17 january 1986
+- 17 july 1969
 - 17 june 1976
+- 17 march 1939
 - 17 october 1934
+- 17 september 1962
+- 1700
+- 1707
+- 1719
+- 1740
+- 1768
+- 1782
+- 1784
+- 1799
+- 18 april 1948
+- 18 april 1983
 - 18 august 1967
+- 18 august 1992
+- 18 august 2015
 - 18 january 1988
+- 18 march 1980
 - 18 march 2011
+- 18 november 1738
+- 18 september 1969
 - 1804
+- 1817
+- 1818
+- 1823
 - 1824
+- 1826
+- 1832
 - 1851
+- 1853
 - 1856
+- 1859
+- 1862
+- 1865
+- 1871
 - 1874
+- 1876
+- 1878
+- 1879
+- 1880
 - 1882
+- 1883
 - 1885
+- 1887
+- 1888
+- 1890
+- 1892
+- 1893
 - 1894
+- 1896
+- 1899
+- 19 april 1972
+- 19 february 1981
 - 19 october 1954
+- 1902
+- 1903
+- 1904
 - 1905
+- 1906
+- 1907
 - 1908
+- 1909
+- 1909–10 italian football championship
+- 1910
+- 1911
 - 1912
+- 1913 fa cup final
+- 1914
+- 1915
+- 1918
 - 1919
 - 1920
 - 1921
+- 1922
 - 1924
 - 1925
+- 1927
 - 1928
 - 1929
+- 1929 atlantic hurricane season
+- 1930
+- 1931
+- 1932
+- 1933
 - 1933 film of same name
+- 1933 general election
+- 1934
+- 1935
+- 1936
+- 1937
+- 1938
+- 1938 general election
+- 1939
+- 1940
+- 1941
+- 1942
+- 1943
+- 1943 general election
 - 1945
+- 1946
+- 1947
+- 1948
+- 1949
 - 1950
 - 1951
 - 1952
+- 1953
 - 1954
+- 1955
 - 1956
 - 1957
+- 1958
 - 1959
 - 1960
 - 1961
+- 1962
 - 1963
+- 1964
 - 1965
+- 1966
+- 1967
+- 1968
+- 1969
 - 1970
 - 1971
 - 1972
+- 1972 atlantic hurricane season
+- 1973
+- 1974
+- 1975
 - 1976
+- 1977
 - 1978
+- 1978 pacific hurricane season
 - 1979
 - 1980
+- 1981
+- 1982
 - 1983
+- 1984
+- 1985
+- 1986
 - 1987
+- 1987 pacific hurricane season
+- 1988
+- 1989
+- 1990
 - 1990 atlantic hurricane season
+- 1991
 - 1992
 - 1993
+- 1993 pacific hurricane season
+- 1994
 - 1995
 - 1996
+- 1996 pacific hurricane season
 - 1997
 - 1998
+- 1998 atlantic hurricane season
 - 1999
+- 2 april 1956
+- 2 february 1920
+- 2 february 2012
+- 2 march 1743
+- 2 march 1948
+- 2 march 1961
+- 2 october 1968
+- 20
+- 20 august 1968
+- 20 february 1898
 - 20 july 1990
+- 20 july 2014
+- 20 june 1649
+- 20 march 1963
+- 20 may 1917
+- 20 october 1951
+- 20 october 1958
+- 20 october 1978
+- 20 october 1982
+- 20 september 1949
 - 2000
 - 2001
 - 2002
 - 2003
+- 2004
 - 2005
 - 2006
+- 2006 pacific typhoon season
 - 2007
 - 2008
+- 2008 bausch & lomb championships
 - 2008 presidential election
 - 2009
 - 2010
 - 2011
+- 2011 pacific typhoon season
 - 2012
+- 2012 atlantic hurricane season
+- 2012 fia world endurance championship season
+- 2013
 - 2014
 - 2014 atlantic hurricane season
+- 2014 fia world endurance championship
 - 2015
 - 2016
+- 2016 fia world endurance championship
+- 2016 general election
 - 2017
+- 2017 atlantic hurricane season
+- 2017 fia world endurance championship
 - 2019 rugby world cup
 - 2020 summer olympics
+- 21 april 1830
+- 21 april 1968
 - 21 april 2008
+- 21 august 1964
+- 21 december 1944
+- 21 december 1985
+- 21 january 1976
+- 21 july 1966
+- 21 july 2015
+- 21 march 1965
+- 21 november 1934
+- 21 november 1955
+- 21 october 1959
 - 22 april 1944
+- 22 august 1971
+- 22 march 1946
 - 22 march 1963
+- 22 may 1938
+- 22 may 1955
 - 22 may 1982
 - 22 october 1877
+- 224
 - 23 april 1616
+- 23 july 1942
+- 23 july 1971
+- 23 june 2016
+- 23 march 1846
+- 23 may 1932
+- 23 may 1964
+- 23 november 1941
+- 23 november 1943
+- 23 october 1989
+- 24 january 1712
+- 24 may 1960
+- 25 april 1980
+- 25 february 1944
+- 25 january 1977
+- 25 july 1812
+- 25 july 2010
+- 25 june 1957
+- 25 june 1975
 - 25 march 1975
+- 25 march 1994
+- 26 august 1981
+- 26 june 1990
+- 26 november 2013
+- 26 october 1640
+- 26 october 1965
+- 26th dynasty
+- 27 july 1988
+- 27 june 2009
 - 27 may 1956
+- 27 may 1990
+- 27 september 1961
 - 28 april 1604
+- 28 january 1596
+- 28 july 1993
+- 28 november 1785
 - 29 january 1943
+- 29 july 1962
+- 29 june 1988
+- 29 october 1967
+- 2pac
+- 3 april 1852
+- 3 august 1924
+- 3 december 1968
+- 3 june 1931
+- 3 march 1889
+- 3 november 1914
+- 3 november 1960
+- 3 september 1783
 - 30 december 1957
+- 30 december 1983
 - 30 january 1962
 - 30 july 1944
 - 30 june 1651
 - 30 march 1988
+- 30 november 1973
+- 30 september 2004
+- 31 august 1951
+- 31 august 1957
+- 31 december 1941
+- 31 january 2004
+- 31 january 2009
 - 31 july 1974
+- 311
+- 35
 - 4 august 1943
+- 4 february 1936
+- 4 july 1966
+- 4 july 1981
+- 4 may 1958
+- 4 november 1941
+- 4 september 1951
+- 49
+- 4ad
+- 5 april 1961
+- 5 april 1989
+- 5 january 1991
+- 5 july 1957
+- 5 june 1972
+- 5 may 1983
+- 5 may 1990
 - 5 october 1732
 - 5 october 1802
+- 501(c)(3)
+- 6 april 2011
+- 6 december 2005
+- 6 february 1949
+- 6 june 1963
+- 6 may 1981
+- 6 may 1992
+- 6 november 1946
+- 6 october 1923
+- 65
+- 7 august 1962
+- 7 december 1989
+- 7 january 1978
+- 7 january 1990
+- 7 june 1970
+- 7 march 1947
+- 7 may 1932
+- 7 november 1985
+- 8 april 1953
+- 8 august 1951
+- 8 december 1945
+- 8 december 1977
+- 8 february 1936
+- 8 march 1952
+- 8 may 1919
+- 8 november 1939
 - 8 october 1945
+- 8 october 1946
+- 8 september 1971
+- 9 august 1954
 - 9 august 1973
 - 9 december 1956
+- 9 june 1978
 - 9 march 1996
+- 9 march 2017
 - 9 may 1944
+- 9 november 1965
+- 9 october 1979
+- 9 september 1981
+- 9th arrondissement of paris
+- a-ha
+- aaron korsh
 - abba
+- abbot
+- abc
+- abdul hamid lahori
+- aberdeen
+- aberdeenshire
+- abida parveen
 - absaroka range
 - abugida
+- abusir-south
+- abyssinia
+- academy award
+- academy award for best achievement in visual effects
+- academy award for best actress
+- academy award for best animated feature
+- academy award for best documentary (short subject)
+- academy award for best documentary feature
+- academy award for best film editing
+- academy award for best picture
+- academy of motion picture arts and sciences
+- ace frehley
+- action
+- action-adventure video game
+- acura
+- adam gontier
+- adam herz
+- adams county
+- adams county, pennsylvania
+- adelaide
+- adolf hitler
 - adventures of huckleberry finn
 - aerosmith
+- afghan campaign
+- afghan whigs
+- afghanistan
 - afroasiatic
+- against me!
 - agnetha fältskog
+- air
 - air force
+- air force reserve command
+- air-to-air missile
+- airline
+- airport
+- ajax
+- al franken
+- al jardine
 - alabama
+- alain resnais
+- alameda, california
 - alan garner
+- alaska
 - alaska range
+- albany
+- albany county, new york
+- albert lortzing
 - alberta
 - albuquerque
+- alcibiades
+- alderac entertainment group
+- aleutsky district
+- alex chilton
+- alexander ostrovsky
+- alexei navalny
+- alfasigma group
 - algeria
+- alice cooper
+- alicia silverstone
+- alkaline trio
+- all purpose cultural cat girl nuku nuku
+- allan knee
+- allegheny county airport
 - allen county
+- allen newell
+- allied invasion of italy
+- allman brothers band
+- ally mcbeal
+- almanzo wilder
+- alstom
+- alt-country
+- alternative metal
+- alternative rock
+- alternative tentacles
+- alto paraná
+- altona
+- alucra
+- aly & aj
+- alyosha
+- amalgamated press
+- amanda coe
 - amanda mealing
+- amazon river
+- ambassador to ottoman empire
 - american
+- american athletic conference
+- american civil war
 - american football
+- american league
+- american revolution
+- american revolutionary war
+- ames, iowa
+- amherst, massachusetts
+- amity university
+- amoraim
 - amstrad
+- amtrak
 - amusement park
+- amy grant
 - anaheim, california
+- anatomist
+- anchorage international airport
+- ancient egypt
 - ancient greece
+- andalusia
 - andrea
+- andrew cuomo
 - andrew lloyd webber
+- andronikos iv palaiologos
 - andy griffith show
 - andy hull
+- andy mccluskey
+- andy partridge
+- andy williams
+- ane brun
+- angel cabada
+- angela and luciana giussani
 - angelina jolie
+- anglican diocese of singapore
+- anglo-spanish war
+- angus
+- angus, scotland
+- anhui
+- anhui province
+- animal-assisted therapy
+- animated television series
+- anime
+- annapolis
+- annie vandermeer mitsoda
+- answers in genesis
 - anthology series
+- anti-inflammatory
 - anton chekhov
+- antonín dvořák
 - anushka shetty
+- anzoátegui
 - apium
 - apocynaceae
 - apple
 - apple inc.
+- appleton, wisconsin
+- applied mathematician
 - apricot computers
+- april 10, 1970
+- april 10, 1993
+- april 10, 2012
+- april 11, 1969
+- april 11, 1971
+- april 12, 1966
+- april 13, 1944
+- april 13, 1952
+- april 14, 1961
+- april 15, 1974
+- april 17, 1964
+- april 1726
 - april 18, 1950
+- april 18, 1973
+- april 19, 1971
 - april 2, 1960
+- april 2, 1978
+- april 20, 1914
+- april 20, 1959
+- april 21, 1970
 - april 21, 1991
+- april 23, 1959
+- april 23, 1985
 - april 24, 1868
+- april 24, 1940
+- april 25, 1978
+- april 27, 1983
 - april 27, 1988
+- april 28, 1934
+- april 28, 1951
+- april 28, 1978
+- april 29, 1986
+- april 4, 1974
+- april 4, 1979
+- april 4, 1993
+- april 5, 1984
+- april 6, 2000
+- april 7, 1984
+- april 8, 1938
+- aquila
+- arado
+- archaeological site
+- arena football league
 - argentina
+- argentine
+- aria hall of fame
+- arista
 - aristotle
 - arizona
+- arjun
+- arkansas
 - arkansas arkansas
 - arlington county, virginia
 - armada music
+- armide
+- army of czech republic
+- arnel pineda
+- arnold bax
+- around world in eighty days
+- art dealer
 - art movement
+- arthur bliss
+- artificial christmas tree
+- aruba
+- ary film awards
 - ascension health
+- ashley zukerman
+- asia
+- asian man records
+- assam
 - association football
+- asteraceae
+- ateneo de manila university
+- athamas
 - athens
+- athletic director
+- athletics
+- atlanta
+- atlantic coast conference
 - atlantic records
+- atmore, alabama
+- atmosphere
+- atomic
+- atomic kitten
+- atonement
+- audio synthesizer
+- august 10, 1966
+- august 10, 1990
 - august 11, 1985
+- august 12, 1919
+- august 12, 1966
+- august 12, 1975
+- august 13, 1962
+- august 14, 1972
+- august 15, 1964
+- august 15, 1967
+- august 15, 1995
+- august 16, 1987
 - august 17, 1957
 - august 17, 1967
+- august 18, 1930
+- august 18, 1969
+- august 18, 1974
+- august 1954
 - august 2, 1947
+- august 20, 1974
+- august 22, 1948
+- august 22, 1962
+- august 22, 1994
 - august 23, 1973
 - august 24, 1963
 - august 24, 1973
+- august 24, 1987
+- august 25, 2017
+- august 26, 1939
+- august 26, 1959
+- august 26, 2005
+- august 27, 1951
+- august 28, 1963
+- august 3, 1950
+- august 30, 1989
+- august 31, 1982
+- august 5, 2004
+- august 6, 1965
+- august 6, 1971
+- august 6, 1972
 - august 7, 1925
+- august 7, 1942
+- august 7, 1960
+- august 8, 1740
+- august 9, 1967
+- auschwitz concentration camp
+- austin, texas
 - australia
+- australian football league
+- australian rules football
+- austria
+- auxiliary power unit
 - avicenna
+- axis power
+- axl rose
+- b-52s
+- b. j. thomas
+- babergh
 - back to future part iii
+- bad religion
 - baden-württemberg
 - bahamas
 - balasore district
+- balcarce
+- ballistic missile
+- baltimore, maryland
+- bam margera
+- banco de chile
 - bangkok
 - bangladesh
+- bangladesh awami league
+- bangles
+- bangor
+- banksia
+- barbara hale
+- bari
+- barker gang
+- barnard college
+- baroque
+- barry humphries
+- barry white
 - baseball
+- basic glyph
 - basic law of hong kong special administrative region of people's republic of china
 - basketball
+- bassist
+- bates county, missouri
+- battle of bulge
+- bauhaus
+- bay lake, florida
 - bbc
 - bbc radio 1
+- bbc three
+- bbc two
+- bbc worldwide
+- beach boys
+- beach music
+- bear hands
+- beatles
+- beatrice of savoy
+- bedford-stuyvesant
+- bee gees
+- beginnerz
+- behavioral genetics
+- beijing
+- beijing subway
 - being and time
+- belarus
+- belfast
+- belgaum district
+- belgium
 - belize
+- belize river
+- belleau
 - bellefontaine cemetery
 - belluno
+- belly
+- benedictine
+- benghazi
+- benjamin "bugsy" siegel
+- benjamin graham
 - bentonville, arkansas
 - bergen county
+- berklee school of music
+- berks county, pennsylvania
+- berkshire
+- berlin
+- berlin stories
+- berserk
+- beryl reid
+- bet
+- bette davis
 - bette midler
+- betting system
+- betty white
+- bewcastle
+- beyoncé
 - biała podlaska county
+- biffy clyro
 - big four
 - big machine records
 - bigbang
+- bill clinton
+- bill mantlo
+- bill nye
 - billboard
+- billie lourd
 - bing crosby
+- biographical
 - bionicle chronicles
+- birmingham city football club
+- birmingham, alabama
+- bispebjerg
+- black metal
 - black sabbath
+- blackburn rovers
 - blackpool
 - blair county
+- blessy blessy
+- blink-182
 - bliss album…?
+- blues
+- blues-rock
+- blumhouse productions
 - bmw
 - bmw x5
 - bmw x5 (e53)
 - board game
+- bob's burgers
+- bodyboarding
+- boeing 707-131b
+- boeing 747-121
 - boeing commercial airplanes
 - boeny region
+- bogota
+- bogotá bogotá
+- bolivar
+- bolivia
+- bolliger & mabillard
 - bollnäs
+- bombardier
+- bon jovi
+- boneybefore
 - bonnie bedelia
+- bono
+- book of genesis
 - boondocks
 - boraginaceae
 - borough of blackpool
+- borough of dartford
+- borough of wellingborough
+- borough of woking
+- bosnia and herzegovina
+- boston
+- boston celtics
+- botnet
+- bowl game
+- box tops
 - boxer
+- boxing
+- boy band
+- boy group
+- brad hawkins
+- brad paisley
 - brad pitt
 - bradley walsh
+- brandon flowers
+- branford, connecticut
+- brazil
+- breakfast food
+- breaking benjamin
+- breed
+- bremerhaven
+- brendon small
+- brest
+- bret michaels
+- brett-livingstone strong
+- brevard
 - brewery
+- brian j. smith
+- bridgeport, connecticut
+- brigadier general
 - brigitte nielsen
+- bring me horizon
+- bristol
+- britain
+- british
+- british armed forces
+- british army
 - british columbia
 - british secret service
+- britt ekland
+- bronx
 - brooklyn
+- brotherhood of man
+- brothers grimm
 - broward county
+- broward county, florida
+- broward school district
+- brownlow medal
+- bruce beresford
 - bruce boone
+- bruce campbell
+- bruce lee
+- bruno mars
+- bryan singer
 - bryanston
+- brymo
+- bucharest
+- bucks county
+- buea
+- buenos aires
+- bulgaria
+- bungie software products corporation
+- bureau of land management
+- burlington county
 - burma
+- burn notice
+- burny mattinson
+- bus driver
+- byrds
 - bytów county
+- c-span
+- cabinet of canada
 - cable-stayed bridge
+- cadastral divisions of new south wales
+- cairo
 - caledonian macbrayne
 - california
+- california memorial stadium
 - caligula
 - callatis
+- camassia
+- camberley
 - cambridge, massachusetts
+- cameroon national football team
 - cammarata
+- campaign medal
+- campaign setting
+- canada
+- canadian
+- canadian football league
+- canadian idol
+- canadian special operations forces command
+- canis major
+- cantabria
 - canton aargau
 - canton ticino
+- cantons of switzerland
+- cape verde
 - capitol records
+- capsicum
+- capsicum annuum
 - caraga administrative region
+- cardiff
 - cargo ship
+- caribbean sea
+- carl hancock rux
 - carl jackson
+- carl sandburg
+- carnegie mellon university
+- caroline islands
+- caroline moser
+- caroline records
+- carrie
+- carroll county
+- casey affleck
 - cashman field
+- cass county
+- cassie ventura
+- castle
+- castleshaw
+- catalonia
+- catawba county, north carolina
+- catholic church
+- cave
+- cbbc
+- cbc television
+- cbs
+- cbs corporation
+- cbs radio
+- cedar springs, michigan
 - cedric entertainer
+- celebrity apprentice
+- celine dion
 - celtic languages
+- celtic rock
 - celtic studies
 - celts
+- census-designated place
+- central america
+- central group
 - central people's government of people's republic of china
+- centre party
 - century media records
+- chan buddhism
+- chancellor
+- channel 4
+- chantry chapel
 - charles de gaulle
 - charles de gaulle airport
+- charles dickens
+- charles saatchi
+- charlotte
+- charlotte county, virginia
+- charlotte motor speedway
 - charlotte, north carolina
+- chase court
 - chelsea
+- chemistry
+- chemotherapy
+- chen luyu
+- cher
+- cherry gillespie
+- chesapeake bay
 - cheshire
+- chess
+- chester bennington
+- chester heights, pennsylvania
 - chicago
 - chicago bulls
+- chicago cubs
+- chichester
+- chief of defence staff
+- chien-shiung wu
+- childish gambino
+- chile
+- chimaira
 - china
+- chinese herbology
 - chokwe lumumba
 - chris carter
+- chris evans
+- chris pontius
+- chris thile
+- christian music
 - christian rap
+- christmas carol
+- christmas carol (2009 film)
+- christopher hampton
+- christopher nolan
+- christopher rice
+- chromosome 22
+- chubut state
+- chuck
+- châteldon
 - circuit board
+- cis
+- cisplatin
+- citadel media
+- city of burnside
+- city of london
+- city of los angeles
+- city of miami
+- city of westminster
 - civil parish
+- civil war
+- clade
+- claremont, new hampshire
+- clarice lispector
+- classical crossover
+- claude debussy
+- cleinias cleinias
 - cleveland browns
 - cleveland cavaliers
+- cleveland, ohio
+- clifton jones
+- clothing
+- clubs
+- cobar shire
 - cocktail
+- cocteau twins
 - coinapult
+- cold war
 - coldplay
 - colle val d'elsa
+- college football
+- collingwood football club
+- colombia
 - color purple
 - colorado
 - colorado river
+- colorado school of mines
 - columbia
+- columbia college
 - columbia county
+- columbia law school
+- columbia records
+- columbia, mississippi
+- columbia, south carolina
+- columbia-shuswap regional district
+- columbus, ohio
+- combat records
 - comcast
 - come dancing
 - comfort suites
 - comic book
+- comic strip
+- comic-magazine
+- command sergeant major
+- common
+- commonwealth
+- commonwealth of massachusetts
+- commonwealth of pennsylvania
+- commonwealth of virginia
+- commonwealth realm
 - competitive eater
+- compilation album
+- computer scientist
+- concord, california
+- condiment
 - conflict studies
+- connecticut
+- connecticut supreme court
 - consent
+- conservative
+- conspiracy theory
+- constance zimmer
+- constellation
+- contralto
+- contributing buildings
+- coochbehar district
+- cookie
+- coral reef
+- corbin allred
+- corey hart
 - corin redgrave
 - coriscus of scepsis
+- cornelis van houten
+- cornelius lanczos
 - cornell university
+- coronation street
+- corrèze
+- cosima wagner
 - cotabato
 - council of europe
+- country
 - country house
 - country music
+- county antrim
+- county clare
+- county donegal
+- county down
+- county kerry
+- county mayo
+- county tyrone
+- covered bridge
+- cowboy junkies
+- craven
+- crayon shin-chan
 - creation records
+- cremona
+- cricket
 - critolaus
+- croatia
+- crown of castile
+- cruise ship
+- cryptid
 - crystal palace
 - crystal palace f.c.
+- cubic transportation systems, inc.
+- cubism
+- culpeper, virginia
 - cumberland county, pennsylvania
+- cumbria
+- cumby
+- cumulus media
+- cundinamarca
+- cupertino, california
+- curb records
+- currant plants
+- curren$y
 - cyclo-cross
+- cyclone taylor
+- czech republic
 - daesung
+- daisuke satō
 - daisy family
+- dakota county
+- dallas cowboys
+- dallas stars
 - damien broderick
+- damon minchella
+- dan andriano
+- dancing with stars
+- danderyd
+- dane dehaan
+- daniel clowes
+- daniel ellsberg
+- daniel espinosa
 - danish
 - danny devito
 - danny elfman
+- danville, virginia
+- dark matter
+- dark room
 - datapad
+- dave grohl
+- dave matthews band
+- david angell
+- david guetta
+- david krumholtz
+- david l. cunningham
+- david lee
 - david lee roth
+- david mamet
 - david owen russell
 - david tennant
 - davis cup
+- davis wade stadium at scott field
+- days of our lives
+- dbs bank
+- dc comics
+- de la salle university
+- dearborn, michigan
 - debbie reynolds
 - decca
+- december 1, 1942
+- december 11, 1952
+- december 11, 1963
+- december 12, 1973
+- december 12, 1978
+- december 14, 1992
+- december 15, 1937
+- december 15, 1961
+- december 15, 1983
+- december 16, 1953
 - december 17, 1964
 - december 17, 1979
+- december 17, 1980
+- december 1774
 - december 1982
+- december 1994
+- december 2, 1949
+- december 2, 1968
+- december 21, 1940
+- december 24, 1965
+- december 26, 1971
+- december 28, 1968
 - december 31, 1944
+- december 31, 1985
 - december 4, 1987
+- december 5, 1981
+- december 6, 1967
+- december 7, 1949
+- december 7, 1981
+- december 8, 1980
 - december 8, 2012
+- december 9, 1916
+- december 9, 1974
 - dee snider
+- deerfield beach, florida
+- def jam recordings
+- defence forces of ireland
+- defense services academy
+- deinomache
+- delaware
+- delaware county
 - delaware river
+- delhi
 - democrat
+- democratic
+- democratic action party
+- democratic party
+- democratic party of connecticut
+- demon
 - denali national park
+- dengeki g's magazine
 - denmark
+- denver, co
 - denver, colorado
 - departamento coronel felipe varela
+- department of energy
+- department store
+- der ring des nibelungen
+- designer card game
+- dethklok
+- detroit river
+- deutsche grammophon
 - devbhoomi dwarka district
+- dharwad district
 - diamond
 - diamond cut
+- diana ross
 - diane ladd
 - dick van dyke
 - die hard
 - digital audio editor
+- dillinger escape plan
+- dipterocarpus
+- director of central intelligence agency
+- disaster film
+- discovery channel
+- disney
+- disney california adventure
+- disney channel
 - disney parks
+- disneyland
+- disneyland park
+- division i
+- dj
+- dnce
+- doctor who
 - documentary film
+- dog
+- dog breed
+- doll
+- dollar
+- dollar (band) dollar
+- dolly parton
+- dominica
+- dominican republic
+- don edwards san francisco bay national wildlife refuge
+- don giovanni
+- don jazzy
+- don loren harper
+- don williams
+- donald glover
+- donald trump
+- doom metal
+- doors
+- double bass
+- doug walker
+- douglas aircraft
+- douglas aircraft company
+- dragon ball z
+- drenthe
+- drink
+- drum and bass
 - duff mckagan
+- duke university
 - dundee
 - dungeons & dragons
+- duran duran
 - dustin lynch
+- dusty springfield
+- dutch
+- dutch republic
+- dwarves
+- dáil éireann
 - e!
+- eagle farm, queensland
+- eagles
+- east java
+- east lothian
 - east river
+- east west records
+- eastenders
+- eastern air lines
+- eastern bulgarian dialects
+- eastern front
+- eastern province
+- eat, pray, love
+- echeveria
+- ector county
+- ecuador
 - eddie murphy
+- edgar allan poe
 - edinburgh
+- edith of wessex
+- edmund phelps
+- edward bond
+- edward confessor
 - edward fitzalan-howard, 18th duke of norfolk
 - edwin lutyens
+- egypt
 - eighth season
+- eighth symphony
+- el jabato
+- el taref province
+- eldar ryazanov
+- electoral district of queanbeyan
+- electoral ward
+- electric light orchestra
+- electronic arts
+- electronic music
+- elgin county
+- elizabeth fraser
+- elizabeth taylor
+- eloy, arizona
 - emilio estevez
+- eminem
+- emmet county
+- emoji
+- empedocles
+- emperor
+- emperor palpatine
+- empire of ashanti
+- encino, los angeles
+- enfield
+- engineering
+- english football league
+- english heritage
 - english language
+- english military expedition of 1595
+- enid blyton
+- enrico fermi
+- epic games
+- epic records
+- episcopal diocese of quincy (illinois)
+- epitaph records
+- equidae
 - erasmus university rotterdam
 - erastus
+- eredivisie
+- eric bachmann
+- eric idle
+- eric wilson
+- ericaceae
+- erik von detten
+- ernakulam district
+- ernest jones
+- espen lind
+- espn
+- essex county
 - estonia
+- ethiopia
 - ethnic group
 - eu
+- eugene heiner
+- eugene shoemaker
+- eugene, oregon
+- eugène ysaÿe
+- eunuch
+- eurasia international
 - eurodance
+- euronext amsterdam
+- european theatre of world war ii
+- eurovision song contest 2010
+- euxton
+- eva von bülow
+- executive order
+- exo
+- explosive
+- extermination camp
 - eyes wide shut
+- eyewear
+- faith hill
+- fall
+- fall out boy
+- family
+- fareast amusement research
+- fargo
+- fatal conceit
 - fatal vision
+- faust
 - fc yverdon
+- february 1, 1937
+- february 12, 1871
+- february 13, 2010
+- february 14, 1966
 - february 15, 1894
 - february 15, 1954
+- february 15, 1998
+- february 16, 1981
+- february 17, 1960
+- february 17, 1981
+- february 18, 1951
+- february 1826
+- february 19, 1940
+- february 19, 1961
+- february 19, 1971
+- february 19, 2015
+- february 1921
 - february 2, 1940
+- february 20, 1975
+- february 21, 1979
+- february 23, 1949
 - february 25, 1949
 - february 25, 1975
+- february 27, 2012
+- february 29, 2016
+- february 4, 1821
+- february 4, 1992
+- february 5, 2002
+- february 6, 1969
+- february 6, 1986
+- february 7, 1982
 - february 7, 2013
+- federal court of canada
+- federal style
+- federated states of micronesia
+- fela anikulapo kuti
+- fela kuti
+- feyenoord
+- fiat 1400
+- fiba europe cup
+- fiction
+- fictional universe
+- ficus
 - fife
+- fifty shades
+- film
 - film actress
+- film director
+- film genre
+- film producer
+- film studio
 - final fantasy
+- finistère
+- finland
+- finnish
+- first name
+- first world war
+- first-person shooter
+- firth of forth
+- fish
+- five families
 - five finger death punch
 - flint, michigan
 - flo rida
+- florence, south carolina
 - florida
+- fluid mechanics
+- fnc entertainment
+- folk shrine
 - football
+- football association
+- football league
 - footballer
+- ford
+- ford motor company
+- forum for democratic change
+- fosston, minnesota
+- four heavenly kings
+- fourth season
+- fourth series
+- fox international channels
+- fox news channel
+- fox television network
+- fractured transmitter
 - france
+- francesco cilluffo
+- frank conroy
+- frank james
+- frankenstein
+- frankenstein; or, modern prometheus
+- franklin county, florida
+- françois de noailles
+- freda payne
+- frederick gough, 4th baron calthorpe
+- fredericksburg, virginia
+- fremont community schools independent school district
+- french
 - french and indian wars
+- french language
+- french resistance movement
 - french university "pierre et marie curie" (paris vi)
+- fresno county, california
+- frida's book
 - friday 13th
+- friedrich hayek
 - friedrich nietzsche
+- friends
+- frozen
+- fujiwara no shunzei
+- fullmetal alchemist
+- futbol club barcelona
+- g-eazy
+- gabriel macht
+- gabrielle aplin
+- gaelic athletic association
+- gaelic games
+- gaius valerius catullus
+- gambia
+- games workshop
+- gang
+- garbage
+- garden salad
+- gardner fox
+- garrison keillor
+- gary cherone
+- gary merrill
+- gastropoda
+- gen x
+- gene
+- gene barry
+- genealogical integrity
+- general hospital
+- genre writers association
+- geoff johns
 - geoffrey a. moore
+- george balanchine
+- george beresford
 - george gershwin
+- george harrison
+- george lawrence moore
+- george r. r. martin
+- george sanders
+- george tenet
+- georges bizet
 - georgia
+- gerald walker
+- gerhart hauptmann
 - german
+- german empire
 - germanicus
+- germany
+- ghana
+- ghettos
+- ghost in shell
+- giacomo puccini
+- gian-carlo coppola
+- gibson guitars
+- gilby clarke
 - giuseppe tornatore
 - giuseppe verdi
+- glacial
+- glacier
+- glee
+- glendale, california
 - glenn quinn
+- globular cluster
+- gloucester, massachusetts
+- gluck
 - gmina czarna dąbrówka
+- gmina gąbin
+- gmina jutrosin
 - gmina konstantynów
 - gmina małogoszcz
 - gmina młynarze
+- gmina pionki
 - gmina rozogi
+- golden globe award for best actor – motion picture musical or comedy
+- golden globe award for best actress – motion picture comedy or musical
 - golden state warriors
+- golf
+- gonzaga university
+- good charlotte
+- good, bad and ugly
+- goodhue county, minnesota
 - gorizia
+- gospel song
+- gotham
+- gothic revival
+- gouania
+- government-in-exile
 - governor of minnesota
 - governor of south dakota
+- gpb radio
+- grafton county
 - graham gouldman
 - graham greene
+- graham nash
+- graham yost
+- gram parsons and fallen angels
+- grammy award
+- granadan
+- grand theft auto v
+- granular cheese
+- graphic designer
+- grateful dead
+- gratiot county
+- graubünden
 - gravity dam
+- great expectations
 - great neck school district
+- great river, new york
+- greater manchester
+- greece
+- greek
+- greek revival
+- greenpoint, brooklyn
+- greensboro
+- greenwich, connecticut
+- greg puciato
+- grenfell, new south wales
 - grey's anatomy
+- greyhound racing
+- groningen airport eelde
+- ground stabilization
 - group of 7
 - gsusa
+- guam
+- guardians of galaxy
+- guatemala
 - gucci mane
+- guilford county, north carolina
 - gujarat
 - gulf of mexico
+- gunpowder plot
 - guns n' roses
+- gus van sant
+- gustav mahler
 - gwangju
+- göttingen
+- haiti
 - haitian revolution
+- hallmark channel
+- hamburg
+- hampton bays, new york
+- hand tools
 - handball
+- hanging valley
+- hangzhou
+- hank williams
+- hanna-barbera
 - hanoi
+- hanover square
+- hans christian andersen
+- hans zimmer
+- hants county
 - harbin
+- hard rock
+- hardcore punk
+- harischandragarh
+- harold arlen
+- harris county
+- harrison county, mississippi
 - harry everett smith
 - harry f. sinclair
 - harvard law school
+- harvard university
 - has_info
+- havergal brian
+- hawaii
+- hayward, california
+- hearst magazines
+- heart
+- heartbreakers
+- heather d'angelo
+- heavy metal
+- heavyweight
+- hebei province
 - heilongjiang
+- helsinki
+- hema malini
+- henan
 - henderson, nevada
+- henning mankell
+- henri de lubac
+- henry cavill
+- henry rollins
+- henry wadsworth longfellow
+- hepatitis
 - her second studio album of same name
+- heritage railroad
+- herman melville
 - herman's hermits
+- hertfordshire
+- hesta prynn
+- highland county, virginia
+- hikaru asada
 - hillary clinton
+- hillsborough county public schools
+- hilltops council
+- himachal pradesh
+- hindi
+- hinds county
+- hindu
+- hip hop
+- hip hop music
+- hippopotamidae
+- hiram, maine
 - his dark materials
 - historic governor's mansion of california
+- historic landmark
+- history channel
+- history of decline and fall of roman empire
+- hoax
+- hockey
+- hogwarts professor
 - hokkaido
+- holiday
 - hollies
 - hollyoaks
+- hollywood records
+- hollywood undead
+- holston river
+- holy roman empire
+- home park
+- homestead records
 - honda
 - honduras
+- hong kong
+- hong kong stock exchange
+- honor society
+- honorverse
+- hop
+- hopkinton, massachusetts
+- horror film
+- hot dog
+- hotel
+- hound
+- house music
+- house of commons
+- house of hohenzollern
+- house of welf
+- house of wessex
+- houston
+- houston rockets
 - houston, texas
 - how dare you! (album) how dare you!
+- hubli
+- hudong-zhonghua shipyard
+- hudson county
+- hudson river
+- hugh de courtenay, 4th/12th earl of devon
+- hughes aircraft company
 - hugo awards
+- hundred of hart
+- hundred years war
+- hundred years' war
 - hungary
+- hurling
+- hyde county
+- hyderabad
+- i
+- i only have eyes for you
+- iac/interactivecorp
+- ian astbury
+- ian kennedy martin
+- ian mcculloch
+- ian mcnabb
+- ica region
+- ice cream
 - ice hockey
+- iceland
+- icf canoe slalom world championships
+- idaho
+- idaho army national guard
 - idina menzel
 - idw publishing
+- igbo people
+- igor stravinsky
+- iheartmedia
+- iheartmedia, inc.
 - illinois
 - ilocos sur
+- ilpendam
+- immortal records
+- impact crater
+- impeachment
+- imperial navy
+- ind eighth avenue line
+- independence county
 - india
+- indian national congress
+- indiana
+- indianapolis colts
 - indie rock
+- indigofera
 - indonesia
+- indoor football
+- infectious disease
+- inferno
+- inflorescence
+- information and communication technologies
+- ink & dagger
+- inman line
+- innere stadt
+- intact media group
+- inter
+- inter milan
+- interface
 - international airport
+- international best dressed list hall of fame
+- international paralympic committee
 - interpretation of science
 - interscope records
+- invictus records
+- inxs
 - iran
+- iraq
+- ireland
+- isaac
+- isaac brock
+- isfahan
+- iskushuban district
+- island country
+- island county, washington
+- island records
+- islands of adventure
 - israel
+- israel defense forces
+- istanbul metro
+- istanbul technical university
+- istria county
+- italian renaissance
 - italy
 - itv
+- iwate prefecture
+- i̇zmir
+- jack lemmon
+- jack warshaw
 - jackie chan
+- jackie evancho
+- jackson browne
 - jacobean revival
+- jada pinkett smith
+- jaipur
 - jakarta
+- jamaica
+- james and giant peach
+- james cagney
 - james lapine
+- james t. farrell
+- james taylor
+- jamie dornan
+- jan 25, 1740
+- jan karon
 - jan łukasiewicz
+- janet jackson
+- january 1, 1960
 - january 1, 1986
 - january 1, 1999
 - january 10, 1949
+- january 11, 1969
+- january 13, 1976
+- january 14, 1965
+- january 15, 1980
+- january 17, 1939
+- january 17, 1955
+- january 1754
+- january 19, 1936
+- january 19, 2009
+- january 1945
+- january 2, 2006
 - january 2007
+- january 22, 1972
+- january 22, 1975
+- january 22, 1986
+- january 24, 1964
+- january 24, 1967
+- january 25, 1947
+- january 25, 1997
+- january 26, 1990
+- january 28, 1947
+- january 3, 2005
+- january 30, 1938
+- january 30, 1954
 - january 30, 1963
+- january 31, 1938
+- january 4, 2010
+- january 7, 1967
+- january 7, 1974
+- january 8, 2007
+- january 9, 1973
+- japan
+- jared leto
+- jason blum
+- jason derulo
+- jason isaacs
+- jasper county, south carolina
+- jass bhatia
+- jazz
+- jazz club
+- jean metzinger
+- jean paul getty
+- jean sibelius
 - jean-claude van damme
+- jean-luc godard
 - jeetendra
+- jeff kinney
+- jefferson county
+- jefferson county, kansas
+- jennifer lopez
+- jennifer munson donovan
+- jennifer teege
+- jenny frost
+- jere burns
 - jerome kern
+- jerry garcia
+- jessica blank
 - jessica mauboy
+- jet engine
+- jhelum district
+- jiande
+- jiangsu
+- jiangsu province
+- jiangxi
+- jilin
+- jim morrison
 - jim nabors
+- jim rome
+- jim wilson
 - jimmy buffett
+- jimmy two-shoes
+- jinhua
+- jinsha river
+- jlo
+- joan osborne
+- joan rivers
+- joe aillet stadium
+- joe walsh
+- johan adolf pengel international airport
+- johann wolfgang von goethe
+- john carl warnecke
+- john cassavetes
+- john d. boswell
+- john david landis
+- john e. hudgens
 - john f. kennedy
+- john gotti
+- john howard
 - john hyams
+- john keats
+- john kenley
+- john lennon
+- john milton
 - john moore (director)
+- john paul jones
+- john paul young
 - john woo
+- johnny mathis
 - johnston county schools
+- jonas mekas
 - jordan
+- jordan river
+- joseph conrad
+- joseph dubin
+- josh freese
+- josh homme
+- journey
+- joyce cary
+- juilliard school
+- july 1, 1952
+- july 1, 1958
+- july 10, 2014
 - july 11, 2010
+- july 12, 1873
+- july 12, 1970
+- july 12, 1984
+- july 14, 2014
+- july 15, 1960
+- july 15, 1965
+- july 18, 1967
+- july 18, 1975
 - july 19, 1939
+- july 19, 1940
+- july 19, 1971
+- july 2, 1991
 - july 20, 1965
+- july 23, 1859
+- july 24, 1969
 - july 24, 1982
+- july 26, 1920
+- july 26, 1964
+- july 26, 1970
+- july 27, 1974
+- july 3, 1939
+- july 30, 1949
+- july 30, 1979
+- july 30, 1996
+- july 31, 1936
+- july 31, 1948
+- july 4, 2016
 - july 5, 1971
+- july 7, 1961
 - july 9, 1968
+- june 1, 1981
+- june 1, 1988
+- june 10, 1956
+- june 11, 1971
+- june 12, 1961
+- june 13, 1960
+- june 17, 1970
+- june 18, 1959
+- june 18, 1989
+- june 1980
 - june 20, 1955
 - june 22, 1953
+- june 23, 1956
+- june 23, 1970
+- june 24, 1969
+- june 27, 1826
+- june 28, 1926
+- june 28, 1945
+- june 28, 1973
+- june 3, 1936
+- june 3, 1974
+- june 4, 1952
+- june 4th, 2011
+- june 5, 1963
+- june 5, 1965
+- june 5, 1967
+- june 5, 1986
+- june 6, 1974
+- june 6, 2011
+- june 8, 1948
+- june 8, 1956
+- june 9, 1988
+- jurist
+- justin bieber
+- justine larbalestier
+- jyp entertainment
 - jędrzejów county
+- kaliningrad
+- kalyanji–anandji
+- kalākaua dynasty
 - kamal haasan
+- kamchatka krai
+- kamehameha dynasty
+- kandinsky
 - kansas
+- kansas city, missouri
+- kansas state university
+- kanye west
+- kaori ishihara
+- karachi
+- karl bartos
+- karnataka
+- kastamonu province
+- kate pierson
+- katharine ross
 - kathy acker
+- katie cassidy
+- kdp
+- kelis
 - ken kwapis
+- ken sugimori
+- kenan thompson
+- kendrick lamar
 - kenneth royce
 - kentucky
+- kerala
 - kerman, california
 - kern county
+- ketchikan gateway borough
 - kevin devine
+- kevin hearn
 - kevin mckidd
 - khuzestan province
+- kiama
+- kieran culkin
+- kiev
+- kim
+- kim fields
+- kim jung-eun
+- kim sang-jin (film director)
 - king crimson
+- king diamond
+- king lear
+- king of fighters
+- kingdom of hawaii
+- kingdom of libya
+- kingdom of poland
+- kings of leon
 - kingsley amis
+- kirksville, missouri
+- kishore kumar
+- kiss
+- kitty wells
+- knoxville
 - knoxville, tennessee
 - kochi
+- kodiak island borough
+- konstantin balmont
+- kool g rap
 - korean war
+- kraft foods
+- krasnogorsky district
+- krasnoznamensk
+- kristin scott thomas
+- kuala lumpur
+- kuala lumpur international airport
+- kumi koda
+- kurt cobain
+- kwazulu-natal
+- kwazulu-natal province
+- kyla
+- kyle chandler
+- kyle massey
+- kyle richards
+- kyuss
+- l. ron hubbard
+- la comédie humaine
 - la gerusalemme liberata
 - labette county
+- laboratory experiment
+- lacey schwimmer
+- lacrosse
 - lake county
+- lake huron
+- lake michigan
+- lake superior
+- lakeside, colorado
+- lakmé
+- lancaster, pennsylvania
+- lancia
+- larry mcmurtry
 - las vegas boulevard
+- las vegas, nevada
+- lasalle county
 - lasse hallström
+- last rites (christianity)
+- latimer, iowa
+- latin alphabet
+- latin america
 - latvia
+- laura
+- laura bailey (voice actress)
+- laura ingalls wilder
+- lauraceae
+- league two
+- leah leah
+- leann rimes
 - lee county, mississippi
+- leena manimekalai
+- legendary entertainment
+- legion of super-heroes
+- legislative council
+- lego star wars
+- leicester
+- leif edling
+- leipzig
+- lemhi range
 - len wiseman
+- lenses
 - leo gregory
 - leo tolstoy
+- leon county, florida
+- leonard cohen
+- les liaisons dangereuses
+- les miserables
+- les misérables
+- les troyens
+- let it be me
+- leviathan
+- lewis carroll
 - lewis range
 - lexicon
+- lg chocolate kg800
+- lg electronics
+- li siyuan
+- li yang
+- liaoning
+- liberal
+- liberal democrat
+- liberal party of australia
+- libertarian party
+- liberty stadium
+- libya
+- life of henry fifth
+- life-insurance
+- light novel
+- lighthouse
+- lighting designer
+- ligue professionnelle 1
+- lika-senj county
+- like virgin
 - likoma island
+- lilly wachowski
 - limited series
+- limitless records
+- linda gillard
+- linkin park
+- linn county
+- lisa lisa and cult jam
+- lisa marie presley
+- literary agent
+- literary prize
+- literary prizes
 - lithuania
+- lithuanian football federation
+- liu song
+- liverpool
+- liverpool bay
+- liège
 - loaded
+- lockheed super constellation
+- lofa
+- logan
+- logan city
+- loki
+- london
+- london borough of bromley
+- london borough of hackney
+- london borough of havering
+- london borough of hillingdon
 - london college of communication
 - london stock exchange
+- long island rail road
+- lord of flies
+- lori swanson
+- los angeles
 - los angeles county
+- los angeles dodgers
+- los angeles metropolitan area
+- loud house
+- loudoun county, virginia
+- loughor
 - louis armstrong
+- louis de crussol
+- louis ross
 - louisiana
+- louisville, kentucky
+- lourdes
+- love hina
+- love of language
+- lovers in paris
+- low-cost airline
+- lowell, massachusetts
+- lower saxony
+- lucius malfoy
+- luftwaffe
+- lulu
+- lust
+- luzerne county, pennsylvania
+- lyndsey gunnulfsen
+- lüneburg heath
 - m.a.
+- macon county, north carolina
+- macon, georgia
+- macy's
 - mad men
+- madama butterfly
+- maddox games
+- madison county, virginia
+- madison, illinois
 - madonna
+- madrid
+- mae whitman
+- magadan oblast
+- magazine
+- magdeburg
+- maghreb
+- maharashtra
+- maharishi mahesh yogi
+- maharishi sthapatya veda
+- maiandros
+- maimonides
+- major general
 - major league baseball
 - maków county
+- malaria
+- malaysia
+- malcolm turnbull
+- maltese
 - mammootty
+- mamoru oshii
+- manchester
+- manchester city
+- manchester united f.c.
 - mande language
+- manga artist
 - manhattan
+- manitoba
+- mansun
+- manuel dorrego
+- manuel of castile
+- manuscript
+- maple cross and mill end
+- mapleton communications
 - mapo district
+- mapuche
+- marc lore
+- marc streitenfeld
+- march 1, 1959
+- march 1, 2015
+- march 10, 1969
+- march 10, 1971
 - march 11, 1934
+- march 11, 1983
+- march 12, 1984
+- march 13, 1936
+- march 14, 1590
 - march 14, 1966
+- march 14, 1976
+- march 15, 1954
+- march 16, 1973
+- march 17, 1957
+- march 17, 1978
+- march 1941
+- march 20, 1914
+- march 20, 1941
+- march 21, 1982
 - march 22, 1930
 - march 22, 1976
+- march 23, 1955
+- march 24, 1992
+- march 25, 1958
+- march 26, 1961
+- march 26, 1996
+- march 27, 1947
+- march 29, 1864
+- march 30, 2010
+- march 31, 1971
+- march 4, 1961
 - march 4, 1973
+- march 4, 1976
+- march 4th, 1961
+- march 6, 1974
+- march 8, 1959
+- march 9, 1972
+- march 9, 1983
+- march 9, 1985
+- margaret weis productions
+- margaret weis productions, ltd
 - maria shriver
+- marie de' medici
+- marina bay
+- marine insurance
+- mark di suvero
+- mark driscoll (screenwriter)
+- mark mcgrath
 - mark millar
 - mark twain
 - marlborough, massachusetts
+- marlon brando
+- marriage of figaro
+- marshall islands
+- martha stewart living omnimedia
+- martin
+- martin freeman
+- martin garrix
+- marvel cinematic universe
 - marvel comics
 - mary shelley
+- maryinsky ballet
+- maryland
+- maryland department of transportation
+- maryland route 97
 - masovian voivodeship
+- mass media
 - massachusetts
+- mastodon
 - matt groening
+- matthew gallaway
+- matthias schoenaerts
+- mattie moss clark
+- maui county
+- maureen stapleton
+- max cavalera
 - may 1, 1976
+- may 1, 1983
+- may 10, 1944
+- may 10, 1963
+- may 10, 1969
 - may 10, 1977
+- may 10, 1978
+- may 10, 1993
 - may 12, 1945
 - may 12, 1962
+- may 15, 1978
+- may 15, 1990
+- may 1592
+- may 16, 1947
 - may 16, 1977
+- may 16, 1979
+- may 17, 1975
+- may 17, 1989
+- may 17, 1990
 - may 18, 1966
+- may 18, 1979
+- may 18, 1999
+- may 19, 1964
+- may 2, 1963
+- may 21, 1963
+- may 21, 1984
+- may 23, 1819
+- may 23, 1973
+- may 23, 2008
+- may 24, 1946
+- may 25, 1947
 - may 25, 1972
+- may 26, 1942
+- may 26, 1949
+- may 26, 1977
+- may 28, 1931
+- may 29, 1966
+- may 3, 1946
+- may 31, 1962
+- may 5, 1985
 - may 6, 1986
+- may 6, 2003
+- may 7, 1992
+- may 8, 1966
+- maynard james keenan
+- mayonnaise
+- maysville
 - mazatlán municipality
+- mccartney
+- mcdonnell douglas f/a-18 hornet
+- mead
+- meal
+- medford, oregon
+- medical food
+- medina
+- mediterranean sauce
+- mediterranean sea
+- medium-range ballistic missile
+- mefistofele
+- meghan markle
+- mego corporation
+- mehakelegnaw zone
+- melbourne
+- melissa o'neil
 - melodic death metal
+- memphis, tennessee
+- mercedes mason
+- mercer county
+- mercer county community college
+- mercury program
 - mercury records
+- merge records
+- metal gear solid
 - method man
+- metrolink
+- metropolitan borough of rochdale
 - metropolitan borough of trafford
+- metropolitan transportation authority
+- mexican
 - mexican army
+- mexican revolution
+- mexican–american war
 - mexico
+- mexico city
+- mexico city, distrito federal
+- mf grimm
+- mf grimm & drasar monumental
+- mgm resorts international
+- mgmt
 - miami
+- miami heat
 - miami-dade county, florida
+- michael allcock
+- michael bublé
+- michael hutchence
+- michael j. behe
 - michael jackson
+- michael lembeck
+- michael massee
+- michael moore
+- michael rasmussen
+- michael showalter
+- michigan
+- michigan department of transportation
 - mick jagger
+- mickey rooney
+- micropolitan area
+- microprose
+- microsoft
+- middle east
 - middlesbrough
+- middlesex county, massachusetts
 - midnight oil
+- midway games
+- mike post
+- mike reiss
+- mike scott
+- mike shinoda
+- milan
+- mildred loving
+- miley cyrus
+- military badge
+- military police
+- milla jovovich
+- milton keynes dons
+- mingo county
+- minister of national defence (canada)
+- ministry of defence
+- minneapolis
+- minneapolis, minnesota
 - minnesota
+- minnesota democratic-farmer-labor party
+- miramax films
+- misamis occidental
+- miss massachusetts teen usa
+- miss philippines earth
+- miss universo italia 2010
+- mississippi
+- mississippi river
+- missouri
 - missouri river
+- mit
 - mixed martial artist
+- mixed martial artists
 - mixed martial arts
+- miyagi prefecture
+- mobb deep
 - moby tommy ms
+- model of gravity
+- modern family
+- molly shannon
+- molosser
+- mondelēz international
+- mondelēz international, inc
+- moneyball
+- monongahela river
 - monorail
 - monotypic
+- monroe county
+- montana
+- montana house of representatives
+- montana state university system
+- montana university system
+- montclair
+- montenegrin
+- montesquieu
+- monteverdi
 - montgomery county
+- montgomery county, pennsylvania
+- montmorency
+- montreal
+- monty python
+- moody blues
+- mooney lynn
+- moree plains shire
+- morocco
+- morris county
+- morrison county
+- mort weisinger
+- mortal kombat
+- moscow kremlin
+- moscow oblast
+- mother superior
+- motoczysz
 - motorsport
+- motorsports park
+- mott hoople
+- mount beerwah
+- mount hood national forest
+- mountainboarder
+- mozambican
+- mozart
 - mud
+- multiple myeloma
+- multirole combat aircraft
+- mumbai
+- munich
+- municipality
 - municipality of villa unión
+- muscle shoals, alabama
+- music festival
+- music film
+- music of night
+- music producer
+- musical play
+- mutual fund
+- myanmar
+- myleene klass
+- myles kennedy
+- mysore district
+- målselv
+- nacha pop
+- nainital district
+- nakhon nayok province
+- nantucket county
+- nantucket, massachusetts
+- napoleonic wars
+- nas
+- nasdaq omx vilnius
+- nash motors
 - nashville, tennessee
+- nasi ulam
+- nassau county
 - natal
+- natalie martinez
+- national aeronautics and space administration
 - national anthem
 - national basketball association
+- national collegiate athletic association
+- national collegiate athletics association
 - national football league
+- national historic landmark
 - national historic site of canada
 - national hockey league
+- national league
+- national park
+- national park service
+- national parliament of solomon islands
+- national school of drama
+- native americans
+- nature documentary
 - nazareth area school district
+- nazi concentration camp
+- nazi concentration camps
+- nazi germany
+- nazi party
+- nba
+- nbc
 - nbcuniversal
+- ncaa
+- neighbours
+- neil diamond
+- neil tennant
+- neil young
+- nelvana
 - neologism
 - neosho county, kansas
 - nepal
+- netherlands
+- netherlands antilles
+- netherlands public broadcasting system
 - nevada
 - nevermore
+- new delhi
 - new hampshire
 - new jersey
+- new jersey nets
+- new jersey transit
+- new mexico
 - new netherland
 - new orleans
+- new orleans, louisiana
+- new rochelle, new york
+- new south wales
+- new wave
 - new york
 - new york city
+- new york city ballet
 - new york city board of transportation
+- new york city subway
+- new york city transit
+- new york governor
+- new york state
+- new york state department of transportation
+- new zealand
+- newark city subway line
+- newark light rail
+- newcastle upon tyne
+- newfoundland and labrador
 - newport beach
+- newtownards
+- ngari prefecture
+- ngozi okonjo-iweala
+- nhs foundation trust
+- niagara county, new york
+- niccolò machiavelli
+- nick hexum
+- nick oliveri
+- nickelback
+- nickelodeon
 - nicole mitchell murphy
+- nigeria
+- nina
+- nina sky
+- nintendo 64
+- nipsey hussle
+- nobel prize
+- nobel prize in physics
 - noel gallagher
+- noel gallagher's high flying birds
+- noise music
+- non-profit
+- non-profit organization
+- nonprofit organization
+- nordland
+- norma
+- north america
+- north ayrshire
+- north carolina
 - north dakota
 - north hempstead
+- north holland
 - north korea
+- north sea
+- north tyneside
 - north west england
+- north west of england
+- northampton
+- northeast wind
+- northern ireland
+- northern ireland assembly
+- northumbria university
+- northwest territories
 - norway
+- norway norway
+- norwegian
+- nova scotia
 - novel of same name
+- november 10, 1992
+- november 11, 1965
+- november 11, 1972
+- november 12, 1943
+- november 12, 1980
+- november 12, 1984
+- november 12, 1990
 - november 12, 2011
 - november 13, 1947
+- november 13, 1972
+- november 14, 1967
+- november 15, 1951
+- november 16, 1958
+- november 16, 1994
+- november 19, 1954
+- november 19, 1959
+- november 1946
+- november 1948
 - november 2, 1945
+- november 2, 1949
+- november 2, 1992
+- november 20, 1975
+- november 21, 1985
+- november 22, 1961
+- november 22, 1981
+- november 23, 1923
+- november 23, 1970
+- november 25, 1963
+- november 25, 1971
+- november 25, 1986
+- november 26, 2013
+- november 27, 1955
+- november 30, 1947
+- november 30, 1967
+- november 5, 1996
+- november 7, 1962
+- november 7, 1988
+- november 8, 1984
+- november 8, 2008
+- november 9, 1954
 - november 9, 1989
+- novi, michigan
+- novosibirsk metro
+- noël coward
 - nsw
+- nu metal
+- nu'est
 - nuclear blast records
+- nuclear magnetic resonance
+- nunavut
+- nuno bettencourt
+- nursery rhyme
+- oahu
+- oakland county
+- oakland, new jersey
 - oasis
+- observation post
+- observation tower
+- ocean colour scene
+- ocean county
+- ocean liner
 - octavia spencer
+- october 10, 1949
+- october 10, 1980
+- october 11, 1970
+- october 12, 1981
+- october 13, 1988
+- october 13, 1992
+- october 14, 1972
+- october 15, 1940
+- october 15, 1954
+- october 15, 1993
 - october 18, 1978
+- october 19, 1969
+- october 19, 1983
+- october 1948
+- october 20, 1949
+- october 24, 2005
+- october 26, 1924
+- october 26, 1987
+- october 27, 1966
+- october 27, 1996
+- october 28, 1939
+- october 3, 1961
+- october 3, 1982
+- october 3, 2010
+- october 30, 1981
+- october 31, 1956
+- october 31, 1961
+- october 4, 1952
 - october 4, 1976
+- october 4, 2013
 - october 6, 1926
+- october 6, 1942
+- october 6, 1959
+- october 6, 2013
+- october 8, 1956
+- october 8, 1973
+- odisha
+- officer rank
+- og maco
+- ogasawara archipelago
 - ohio
 - ohio river
 - okeh records
 - oklahoma
+- oklahoma city, oklahoma
+- oktibbeha county, mississippi
 - old english
 - old persian
+- oley township
+- olivia lufkin
+- olympia
+- omagh district council
+- omaha, nebraska
+- oman
 - one direction
+- oneida county, new york
+- onerepublic
+- online forum
+- only revolutions
+- ontario
+- opel
+- opera
+- operation torch
+- orchestra
+- orchid
+- order of golden fleece
+- oregon
+- oregon university system
+- orfeo
+- oriental land company
+- oriental orthodox christian churches
 - original soundtrack
+- orizaba, veracruz
+- orlando, florida
+- oromia region
+- osamu tezuka
+- oskaloosa
 - oslo
+- osseo school district
+- ostracon
 - oswego
+- otb group
+- othello
+- ottawa
+- otto laporte
+- outstanding writing for variety series
+- overland park, ks
 - owen hunt
 - owens river
+- oxford university
+- oz books
+- ozamiz city
 - ozzy osbourne
 - p. l. travers
+- pacific
+- pacific campaign
 - pacific northwest
+- pacific plate
+- padma shri
+- paducah, kentucky
+- pain
+- pakistan
 - pakistan armed forces
 - palm beach county
+- palme d'or
+- pam grier
+- pama–nyungan family
+- panama
+- panel study
+- paradise, nevada
+- paraguay
+- paramore
+- paris
+- park city, utah
+- park hae-jin
+- parliament of canada
+- parliament of jamaica
+- parliament of scotland
+- parliament of united kingdom
+- parlophone
+- pashtun
+- pat shortt
+- patrick stewart
+- pattie boyd
+- paul buchanan
+- paul gleason
+- paul haggis
+- paul john weitz
+- paul kelly and coloured girls
+- paul mccartney
 - paul rudolph
+- paul spector
+- paul thiry
 - paula abdul
+- pbs
+- peer-reviewed
+- pelléas et mélisande
 - penn state university press
 - pennsylvania
+- pennsylvania department of transportation
+- people mover
 - people's republic of china
+- percy bysshe shelley
+- perennial
+- performance art
 - peripatetic school
+- persian letters
+- peru
+- pet shop boys
+- pete ham
+- pete townshend
+- peter carey
+- peter dickinson
+- peter dutton
 - peter hyams
+- peter jackson
+- petroleum
+- petroleum geology
+- phil anselmo
 - philadelphia
+- philadelphia eagles
 - philadelphia flyers
+- philadelphia phillies
 - philip pullman
+- philip v of spain
+- philippine
 - philippines
+- philips records
+- phoenix suns
 - picture of dorian gray
+- pierre choderlos de laclos
 - pine valley, pennsylvania
+- pink floyd
+- pittsburgh
+- pittsburgh panthers
+- pittsylvania county, virginia
+- pixar
+- planets
+- plant-derived compounds
+- plantation of ulster
+- plata ii
 - platform game
+- play of same name
+- playstation
+- playstation 3
+- plum river
+- plumbo
+- plymouth colony
+- plymouth county
+- poet laureate
+- poetry
+- police
+- polish academy of sciences
+- political party
+- polly grubb
+- ponce
+- ponce, puerto rico
+- pop-rock
 - porky pig
+- port townsend, washington
+- portadown
+- portland, maine
+- portland, oregon
 - portsmouth
+- potsdam
+- poul anderson
+- prabhas prabhas
+- praia
+- president of uganda
+- preston
+- preston north end
 - pretty poison
+- primetime emmy award
+- princess diaries
+- princeton borough
+- princeton university
+- princeton, new jersey
+- priyanka chopra
+- producer of year, non-classical
+- professional boxing
 - professional wrestler
+- professional wrestling
+- professional wrestling promotion
+- progressive rock
+- prostanthera
+- prosthetic records
+- providence, rhode island
 - province of agrigento
+- province of coruña
+- province of ica
+- prussian estates
+- prądnik river
+- pseudoscientific
+- psychedelic rock
 - psychoanalyst
+- psychological fear
 - psychological test
+- public broadcasting
+- public enemy
+- puccini
+- puff daddy
+- puffin
+- punjab
+- punk rock
+- pursuit curve
+- purvi champaran district
+- puscifer
 - pussycat dolls
+- putnam county, indiana
+- puttalam district
+- pvris
+- pyongyang
+- płock county
+- qikiqtaaluk region
+- quanzhou
+- queen
+- queen elizabeth ii
+- queens
+- queens of stone age
+- queensland
+- quentin tarantino
+- r&b
+- r. dennis cook
+- radar
+- radom county
+- ragtime for eleven instruments
+- rajasthan
 - rakesh roshan
+- ralph waldo emerson
+- ramat gan
+- rancid
+- random house
+- randy grubb
+- ras records
+- ravello
+- rawicz county
+- ray davies
+- raymond e. feist
+- rbc dain rauscher
 - real quiet
 - reality program
+- reality tv
+- rebellion against emperor yang
+- reconquista
+- reconstruction
+- record producer
+- red wing, minnesota
 - reggae
 - remington arms
+- renaissance fair
+- renaissance revival
 - renewable technologies
+- rensselaer county
+- replacements
+- republic of china
+- republic of ireland
+- republic records
+- republican
+- republican party
+- republika srpska
+- reusable spacecraft
+- rhino
+- rhubarb
 - rhythm and blues
+- rice
 - richard connell
+- richard cromwell
+- richard levinson
 - richard m. sherman
 - richard münch (actor)
+- richard strauss
+- richard wagner
+- richard webster
+- richard wilson
+- richmond, virginia
+- rick harrison
+- rick hoffman
+- rihanna
+- rime of ancient mariner
 - ringo starr
+- rio de janeiro
+- rita awards
+- rite of spring
+- river
+- river edge, new jersey
+- river foyle
+- river mersey
+- river taw
+- rkk energia
+- road bicycle racing
+- roadrunner records
 - rob thomas
+- robbie williams
 - robert aldrich
 - robert b. parker
+- robert chaplin
+- robert iii of scotland
 - robert j. sherman
 - robert louis stevenson
 - robey & company limited
+- robin trower
+- robinson crusoe
+- robot wars
+- rochester, new york
+- rock
+- rock music
+- rocket engine
+- rockingham county
+- rocky jones, space ranger
+- roger price (television producer)
+- roger sterling
+- rohini hattangadi
+- rohit kaushik
+- roland orzabal
 - role-playing game
+- role-playing video game
 - rolling stones
+- rolls-royce
+- roma
+- roman emperor
+- romance novels
+- romance writers of america
+- romanoff and juliet (film)
+- romantic comedy
 - romantic nationalism
+- romantic tragedy of same name
 - rome
 - romeo and juliet
+- ron livingston
+- ron marlett
+- rose edith crowley
+- rosemont, pennsylvania
+- rossendale
+- roy alfred clarence boulting
+- royal air force
 - royal australian air force
+- royal bank of canada
+- royal borough of windsor and maidenhead
+- royal navy
+- royal shakespeare company
+- royal shakespeare theatre
+- rsfsr
 - rudrapur
+- rufus wainwright
+- rugby league
+- rugby union
+- ruggero deodato
+- rush
+- russ meyer
 - russia
+- russian civil war
 - russian empire
+- russian soviet federative socialist republic
+- ryfylkeheiane
+- ryosuke yamada
+- sacramento
+- saddle creek records
+- sagittarius
+- sagittarius constellation
+- sailing vessel
+- saint louis river
+- saint lucia labour party
+- saint paul, minnesota
+- saint petersburg
+- sainte genevieve county, missouri
+- sakha (yakutia) republic
+- salad
+- salt lake city
+- salt lake county
+- salt lake county, utah
+- sam walton
+- samara oblast
+- same title
+- san anselmo, california
+- san bernardino, california
+- san diego
+- san diego county
+- san diego state university
+- san francisco
+- san francisco ballet
+- san francisco bay area
+- san francisco, california
+- sanctuary records
+- sandhurst
+- sandie shaw
+- sandra ann lauer
+- sandra bullock
+- sandwich
+- sangeet natak akademi award
+- sanremo
+- santa barbara, california
+- santa monica, california
 - santa rosa county
+- saqqara
+- sara shepard
+- sarah brightman
+- saratoga county, new york
+- saskatchewan
+- saturday night live
+- saturday night live season 2, episode
+- saturdays
+- saturn v
+- savannah
+- saxon stories
+- saxony-anhalt
+- saxophonist
+- sayo yamamoto
+- sayre, pennsylvania
+- school district
 - schools of thought
+- schooner
+- schuylkill river
+- science fiction
 - scotland
+- scott weiland
+- scott westerfeld
+- scottish borders
+- screaming trees
+- screen actors guild award for outstanding performance by male actor in miniseries or television movie
+- screenwriter
 - seagull
+- sean kingston
+- seattle, washington
 - seattle-tacoma international airport
+- second matabele war
 - second punic war
+- second sino-japanese war
+- second world war
+- secondary school
 - secret intelligence service
 - secret war of lisa simpson
+- sedimentology
 - sega
+- sega genesis
+- seinfeld
+- selena gomez
+- seminole
 - senones
 - senufo
 - seoul
+- september 1, 1984
+- september 12, 1871
+- september 12, 1984
+- september 15, 1959
+- september 15, 1969
 - september 16, 1954
+- september 16, 1972
+- september 16, 1977
+- september 17, 1965
+- september 18, 1952
+- september 18, 1959
+- september 18, 1971
+- september 18, 1979
+- september 19, 1989
+- september 19, 1997
+- september 19, 2016
+- september 1945
+- september 2, 1904
+- september 20, 1939
+- september 20, 1968
+- september 21, 1968
+- september 21, 1978
+- september 21, 1989
+- september 22, 1985
+- september 24, 1974
+- september 24, 1984
+- september 26, 1973
+- september 27, 1979
+- september 29, 1944
+- september 29, 1995
+- september 30, 1970
+- september 4, 1959
+- september 4, 1963
+- september 4, 1971
+- september 4, 2014
+- september 5, 1959
+- september 5, 1967
 - september 6, 1944
+- september 6, 1963
+- september 8, 1982
+- september 9, 1973
+- serbia
+- serbian cyrillic alphabet
+- series 3
+- series 7
 - sesame workshop
+- seven network
 - seven sisters
+- sevenoaks district
 - shaan rahman
+- shafter, california
 - shakira
+- shamrock independent school district
+- shanghai city
 - shasta county
 - shasta lake
+- sheffield united football club
 - sherman brothers
+- shinee
+- shiodome city center
+- shire of wellington
+- shirley murdock
+- shiva naipaul
+- shueisha
+- sichuan
 - sierra leone
+- sigmund freud
+- silesian dialect
+- silver line
+- simply red simply red
 - simpsons
 - sinaloa
+- sindhi
+- singapore
+- single-lens reflex camera
+- sir robert spencer
+- sissel
 - site of special scientific interest
+- sixty years' war
+- skeena-queen charlotte regional district
+- ski area
 - ski resort
+- skrull
+- skylar grey
+- skyscraper
 - slash
+- slava polunin
 - sleeping beauty
+- sm investments
 - smithsonian institution
 - sniper rifle
+- snow queen
+- snow white
 - so you think you can dance
+- soap opera
 - soccer
+- social networking website
 - socialite
+- sofia
+- sofia coppola
+- soft drink
+- soft science fiction
+- software repository
+- somali
+- somali music
+- somalia
+- son dam-bi
+- song of ice and fire
+- sonic youth
+- sonoma county, california
+- sony
+- sony computer entertainment
 - sony music
+- sony music colombia
+- sophia myles
+- sopranos
 - soul
+- soulwax
 - south africa
+- south america
+- south asia
+- south australia
+- south carolina
 - south dakota
+- south dakota democratic party
 - south korea
+- south orkney islands
+- south ossetia
 - south park
+- south western railway
+- southampton township
+- southeastern conference
+- southern africa
+- southern christian leadership conference
+- southern rock
+- southern tang
+- southern united states
+- southwest australia
+- southwest chief
+- sovereign state
 - soviet
+- soviet space program
+- soviet union
+- spaghetti western
+- spaghetti westerns
+- spain
+- spanish-language
 - special administrative region
+- special forces
+- special operation unit
+- special operations
 - speech
+- spelling bee
+- sports talk
 - springer science+business media
+- squeeze
+- sri lanka
+- st edward's school, oxford
+- st. charles county
+- st. landry parish
+- st. louis
+- st. louis, illinois
+- st. louis, missouri
+- st. vincent bay
+- stacey dash
+- stage director
+- stanislav binički
+- stanley cup
+- star
+- star gazing
+- stargate sg-1
+- starkville
+- state of mexico
+- stella liebeck
+- stephanie syjuco
+- stephen foster
 - stephen sondheim
+- steve englehart
 - steve jones
+- steve parry
+- steven soderbergh
+- steven tyler
+- stevie wonder
+- sting
+- stirling
+- stock exchange
 - stockholm
+- stockholm county
+- stoke city
+- stone temple pilots
+- story paper
+- strafford county
 - strato
 - stratosphere las vegas
+- strawbs
+- street gang
+- streetcar named desire
+- streetcar named marge
+- styria
 - subfamily
+- sublette
+- sublime
+- subsidiary
+- suburb
+- sudan
+- suez canal
+- suffolk
+- sufi
+- sugar hill, new hampshire
+- suikoden
+- suits (season 1)
+- sultan khan
+- sunrise
+- sunset limited
+- sunshine coast region
 - super bowl
+- super nintendo entertainment system
+- supercell
+- superhero
+- supernatural
+- supertramp
+- supreme court
+- supreme court of canada
 - supreme court of united states
+- supremes
+- survivor
+- susquehanna county
+- susquehanna river
+- suwon
 - suzanne martin
+- suzhou
+- sven väth
+- swansea city
 - sweden
+- swedish
 - switzerland
+- swv
 - sydney march
+- sydney showground
+- symphonic metal
+- synth-pop
+- synthpop
+- syracuse university
+- syria
+- system of down
 - szczytno county
 - t tour
+- tabitha st. germain
+- taipei
 - taiwan
+- taiyuan
+- taizhou
 - tajikistan
+- take that
+- takeshi konomi
+- takeshitakama
+- tales for people under 3 years of age
+- tales of legendia
+- tallahassee
+- tallahassee, florida
+- talmi-teshub
 - tamaulipas
+- taming of shrew
+- tamla records
+- tangle
+- taron egerton
+- tasmania
 - tata group
+- taunton, massachusetts
 - tautiška giesmė
 - taylor swift
+- te atatu peninsula
+- tea
+- teachta dála
 - team europe
+- tears for fears
+- tehran
 - telangana
+- telemark
+- telenovelas
+- television network
+- television producer
+- television station
+- tempe, arizona
+- temple of dog
 - tennessee
+- tennessee williams
 - tennis
+- testicular cancer
+- teton county
 - texas
+- thai
 - thailand
+- theatre
+- them crooked vultures
 - theme park
+- themisto
+- theo
+- theodore schwartz
+- thirteenth season
+- thirty seconds to mars
+- thomas gabriel fischer
+- thomas johnson
 - thomas newman
 - thoroughbred
 - thoroughbred horse racing
+- thrash metal
+- three musketeers
+- three rivers district
+- through looking-glass, and what alice found there
+- théoule-sur-mer
+- tilt rotor aircraft
+- tiltrotor
+- tim allen
+- tim armstrong
+- tim buckley
+- tim rooney
+- time warner
+- timely comics
+- tobias frere-jones
+- todd mohney
 - todtnau
+- tokke
+- tokyo
 - tokyo disney resort
+- tom conway
+- tom cruise
+- tom defalco
+- tom gabriel fischer
+- tom morello
+- tom roman
+- tonga tonga
+- tongchuan tongchuan
+- tonopah, nevada
+- tony 'juke' jukic
+- tony gardner
+- tony hsieh
+- tool
+- tool (band)
 - topeka public schools
+- tori kelly
+- torilis
+- toronto
+- toronto, ontario
+- tower hamlets
+- town house records
+- town of islip
+- toxicologist
+- toy
+- toyota
+- tpc interactive
+- tracey emin
+- tracy hickman
 - trade association
+- trade show
+- tranmere rovers f.c.
+- transcendental meditation
+- transformers unicron trilogy
+- translingually relevant aspects of language
+- transport for nsw
 - transunion financing corp.
+- transylvania county
+- transylvania county, north carolina
 - travis barker
+- travis county
+- travis scott
+- trax records
+- treatise on money
+- trenton, florida
+- trevor jones
+- trinidad and tobago
+- trinity college, dublin
+- triple junction
+- tripoli
+- tripp county
+- tristan und isolde
+- tropical cyclone
+- troy miller
+- troy sanders
+- troy van leeuwen
+- true beauty
+- truman capote
 - truth tour
+- tunis
 - tupelo, mississippi
+- turandot
+- turboprop
 - turkey
 - turkmenistan
+- tv station
+- tvr
+- tvr griffith 200
+- twelfth season
+- twenty thousand leagues under sea
+- twice
+- tynaarlo
+- tyne and wear metro
 - u.s. secret service
 - u2
+- uganda
+- uk parliament
 - ukraine
+- ukrainian greek catholic church
+- ulli lommel
+- ultimatum
+- un women
+- union county
+- united arab emirates
 - united center
 - united kingdom
+- united nations
+- united russia
 - united states
+- united states air force
+- united states army
 - united states attorney
+- united states coast guard
+- united states constitution
+- united states district court for southern district of new york
+- united states environmental protection agency
 - united states men's national soccer team
 - united states navy
+- united states of america
+- united states presidential election of 2016
+- united states presidential election, 1996
+- united states special operations command
 - united states supreme court
+- universal music group
 - universal pictures
 - universal soldier franchise
+- universe
+- university division
+- university of arizona
+- university of british columbia
+- university of california, los angeles
+- university of cambridge
+- university of georgia
+- university of heidelberg
+- university of louisville
+- university of massachusetts amherst
+- university of minnesota
+- university of missouri–st. louis
+- university of north carolina at chapel hill
 - university of oregon
+- university of oxford
+- university of santo tomas
+- university of west florida
 - uruguay uruguay
 - usa
+- utah
+- utah county
+- utica
+- utrecht
+- uttar pradesh
+- uttarakhand
+- val-d’isère
+- vale of glamorgan
 - valletta
+- valley of zephath
+- van halen
+- van vleck independent school district
+- vanderbilt family
+- vanessa bayer
+- vanessa hudgens
+- vanessa ray
+- vasyl lazarovych
 - vaud
+- vauxhall
+- vegetables
+- velvet underground
+- venezuela
 - ventura county
+- venture capital
+- verna arvey
 - verona
+- veronica mars
+- veruca salt veruca salt
 - vickers limited
+- victor hugo
+- victoria
+- victoria justice
+- victoria salmon kings
+- victoria, british columbia
+- victorian
+- victorian football league
+- video game
+- video game developer
+- video game music
 - vienna
+- vietnam
+- vietnam war
+- vikram vikram
+- vimto
+- vince flynn
+- vincristine
+- violin
+- virender kapoor
+- virgin records
+- virginia
+- virginie besson-silla
+- vishnuvardhan
+- vistula
+- vitamin b
+- vitamin records
+- vivian campbell
 - volleyball
+- vyjayanthimala
+- wake county
+- walden
+- wales
+- wallace beery
+- wallace shawn
+- walt disney
+- walt disney company
+- walt disney pictures
+- walt disney studios motion pictures
+- walt disney world
+- walt disney world resort
+- walter matthau
 - war and peace
 - war memorial
 - war on drugs
+- warner bros.
+- warp
+- warragul
 - warrel dane
+- warren ellis
+- warren platner
+- warsaw
+- warwick river
+- washington
+- washington county
+- washington hospital center
 - washington, d.c.
+- washington, dc
+- waterloo road
+- watertown, massachusetts
 - watford
+- wave–particle duality
+- wayne county
 - wayne fontana
+- webcomic
+- website
+- weddin shire
+- wedding present
+- wehrmacht
+- weight class
+- weinstein company
+- welsh
+- welterweight
 - wenchuan county
+- wendy matthews
+- wesfarmers
+- wesleyan university
 - west bloomfield school district
+- west coast eagles
+- west frankfort
+- west hartford, connecticut
+- west lindsey
+- west virginia
+- westchester county, new york
+- western
+- western art
+- western australia
+- western film
+- western state colorado university
+- western united states
+- westfield
+- westlake village, california
+- westland aircraft
+- westworld
+- white cloud mountains
+- white stripes
+- wiesbaden
+- wilfred owen
 - willem kieft
+- william castle
+- william hanna
+- william katt
+- william malone (director)
 - william shakespeare
 - wind in willows
+- winery
+- wingate university
+- winston-salem, north carolina
+- winter park, florida
 - wizards of coast
+- woking
+- wolf-rayet star
+- wolfgang amadeus mozart
+- wollondilly shire
+- wolverine
+- women's football
+- wonder girls
+- wonder years
+- wooden roller coaster
+- woodland hills, california
+- woreda
+- world heritage site
 - world war i
 - world war ii
+- world wrestling federation
+- wright brothers medal
+- wrocław
+- wuhu
+- wuthering heights
+- wuzhong district
+- wyoming
+- x factor
+- xanth
+- xl recordings
+- xtc
+- yancey county
+- yang tong
 - yanni
 - yardbirds
+- yenisei river
+- yeongdeungpo-gu
+- yeouido-dong
+- yerevan
+- yomiuri tv
+- yoo ara
+- young and hopeless
+- young and restless
+- yuan dynasty
+- zacatelco
+- zachary gordon
+- zambia
+- zedekiah
+- zeeland
 - zeus
+- zhejiang
+- zhu yuanzhang
+- zilina
 - zimbabwe
+- zoo
 - česká zbrojovka

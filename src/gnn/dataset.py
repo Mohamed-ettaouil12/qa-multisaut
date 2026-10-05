@@ -73,7 +73,8 @@ def build_graph_data(
         normalize_embeddings=True,
         show_progress_bar=False,
         convert_to_tensor=True,
-    ).squeeze(0).cpu()
+    ).cpu()  # [1, 384]
+    question_emb_squeezed = question_emb.squeeze(0)  # [384]
 
     relation_texts = []
     triplet_texts = []
@@ -106,7 +107,7 @@ def build_graph_data(
             batch_size=64,
         )
     triplet_embs = triplet_embs.cpu()
-    cos_qt = (triplet_embs @ question_emb).squeeze()
+    cos_qt = (triplet_embs @ question_emb_squeezed).squeeze()
     if cos_qt.ndim == 0:
         cos_qt = cos_qt.unsqueeze(0)
 
@@ -132,7 +133,7 @@ def build_graph_data(
         edge_attr=edge_attr,
         y=y,
         cos_qt=cos_qt,
-        q_emb=question_emb,
+        q_emb=question_emb,  # [1, 384] pour batching PyG correct
         qid=qid,
         num_nodes=len(entity_list),
     )
