@@ -69,9 +69,11 @@
 - **Rapport**: `rapport.md` (problème, pipeline, méthodes, résultats mesurés, limites, suites)
 - **README**: `README.md` (installation, commandes exactes, API, structure, versions)
 - **Requirements lock**: `requirements.lock` (pip freeze)
+- **Metrics resume**: `reports/metrics_resume.md` (tableau unique toutes métriques)
+- **Smoke test**: `reports/j15_smoke_test.md`
 - **STATUS.md**: final avec toutes étapes cochées
 - **AGENTS.md**: créé pour sessions futures
-- **Proof**: `rapport.md`, `README.md`, `requirements.lock`, `STATUS.md`, `AGENTS.md`
+- **Proof**: `rapport.md`, `README.md`, `requirements.lock`, `STATUS.md`, `AGENTS.md`, `reports/metrics_resume.md`, `reports/j15_smoke_test.md`
 
 ---
 All 10 pipeline steps completed with evidence.
