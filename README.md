@@ -316,3 +316,4 @@ Versions utilisées :
 
 ## Licence
 MIT🔗 Modèle (adaptateurs LoRA) : https://huggingface.co/2Mohamed1/qa-multisaut-qlora
+🔗 Modèle entraîné (adaptateurs LoRA) : https://huggingface.co/2Mohamed1/qa-multisaut-qlora
