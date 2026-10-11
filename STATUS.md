@@ -27,13 +27,16 @@
 - **Report**: `reports/j12_final_test.md`
 
 ## Task 5 — Ablations manquantes ✅
-- **A) BM25 seul**: R@5=0.7074 (baseline fort, -0.0218 vs GNN)
-- **B) Neo4j sans GNN**: 1-2 hops + BM25, R@5=0.6634 (-0.0658 vs GNN)
-- **C) Neo4j + Cross-Encoder**: R@5=0.4426 (-0.2866 vs GNN, reranker échoue sur triplets courts)
-- **Report**: `reports/j13_ablations_final.md` avec tableau complet et analyse
+- **A) BM25 seul**: R@5=0.7074 (-0.0218 vs GNN A8)
+- **B) Neo4j sans GNN**: 1-2 hops + BM25, R@5=0.6634 (-0.0658)
+- **C) Neo4j + Cross-Encoder**: R@5=0.4426 (-0.2866, reranker fails on short triplets)
+- **Report**: `reports/j13_ablations_final.md` with full comparison table
 
-## Task 6 — Taux d'hallucination ⏳
-- Pending: juge lexical/embedding sur 100 réponses val Run1_GNN
+## Task 6 — Taux d'hallucination ✅
+- **Done**: Judge = embedding (bge-small) threshold 0.5 on 100 val responses Run1_GNN
+- **Result**: 41% responses hallucinated, 59% claims supported
+- **Lexical judge (comparison)**: 76% hallucinated (too strict)
+- **Report**: `reports/j14_hallucination.md` with 5 detailed examples
 
 ---
 Last updated: 2026-10-11
