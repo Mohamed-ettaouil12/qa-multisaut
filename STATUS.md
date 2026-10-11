@@ -6,8 +6,12 @@
 - **Stats**: `reports/j4_kg_stats.md` updated
 - **Key metric**: 30.75% questions sans triplet positif (615/2000)
 
-## Task 2 — Peupler Neo4j ⏳
-- Pending: docker compose up, load_neo4j.py, Cypher verification
+## Task 2 — Peupler Neo4j ✅
+- **Done**: docker compose up, load_neo4j.py executed successfully
+- **Counts**: 17 257 nodes, 43 040 edges, 4 865 edges label=1, 15 302 entities, 1 955 questions
+- **Cypher verification**: 2-hop neighborhood queries working
+- **Report**: `reports/j11_neo4j.md`
+- **Note**: 45 questions missing (no triplets extracted)
 
 ## Task 3 — Prédictions top-k sur test ⏳
 - Pending: gnn_best.pt (A8) → gnn_topk_test.jsonl (k=5, 300 qids)
