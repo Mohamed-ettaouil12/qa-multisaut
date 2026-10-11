@@ -25,8 +25,15 @@ class NodeBase:
         self.name = name
         self.config = config
     
-    def log(self, state: PipelineState, key: str, value: Any):
+    def _ensure_state(self, state) -> PipelineState:
+        """Convert dict to PipelineState if needed."""
+        if isinstance(state, dict):
+            return PipelineState(**state)
+        return state
+    
+    def log(self, state, key: str, value: Any):
         """Log a value to the appropriate log dict."""
+        state = self._ensure_state(state)
         log_attr = f"{self.name}_log"
         if hasattr(state, log_attr):
             getattr(state, log_attr)[key] = value
@@ -50,7 +57,8 @@ class EntityDetectionNode(NodeBase):
                 by_qid[t["qid"]].append(t)
         return by_qid
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         # Simple entity detection: find entities from kg_triplets that appear in question
@@ -120,7 +128,8 @@ class Neo4jRetrievalNode(NodeBase):
             logger.warning(f"Neo4j connection failed: {e}")
             self.driver = None
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         if not self.driver or not state.question_entities:
@@ -201,7 +210,8 @@ class PyGFallbackRetrievalNode(NodeBase):
                 by_qid[t["qid"]].append(t)
         return by_qid
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         # This node is a fallback - in practice we'd need the qid
@@ -247,7 +257,8 @@ class GNNScoringNode(NodeBase):
         
         logger.info(f"GNN loaded: {sum(p.numel() for p in self.model.parameters()):,} params")
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         if not state.retrieved_triplets:
@@ -257,7 +268,7 @@ class GNNScoringNode(NodeBase):
         
         try:
             # Build PyG Data for this question
-            data = self._build_pyg_data(state.question, state.retrieved_triplets)
+            data = self._build_pyg_data(state.question, state.retrieved_triplets, state.qid or "inference")
             
             # Compute BM25 scores
             bm25_scores = self._compute_bm25(state.question, state.retrieved_triplets)
@@ -292,7 +303,7 @@ class GNNScoringNode(NodeBase):
         self.log(state, "latency_ms", (time.time() - start) * 1000)
         return state
     
-    def _build_pyg_data(self, question: str, triplets: List[Triplet]):
+    def _build_pyg_data(self, question: str, triplets: List[Triplet], qid: str = "inference"):
         """Build PyG Data object for a single question."""
         from torch_geometric.data import Data
         
@@ -355,7 +366,7 @@ class GNNScoringNode(NodeBase):
             y=y,
             cos_qt=cos_qt,
             q_emb=q_emb,
-            qid=state.qid or "inference",
+            qid=qid,
             num_nodes=len(entity_list),
         )
         data.entity_list = entity_list
@@ -383,7 +394,8 @@ class TopKSelectionNode(NodeBase):
     def __init__(self, config: PipelineConfig):
         super().__init__("topk_selection", config)
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         k = self.config.gnn_k
@@ -411,7 +423,8 @@ class AbstentionNode(NodeBase):
     def __init__(self, config: PipelineConfig):
         super().__init__("abstention", config)
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         reasons = []
@@ -461,7 +474,8 @@ class GenerationNode(NodeBase):
         # Load the fused model weights (they're already merged in merged_final)
         logger.info(f"LLM loaded from {self.config.llm_path}")
     
-    def __call__(self, state: PipelineState) -> PipelineState:
+    def __call__(self, state) -> PipelineState:
+        state = self._ensure_state(state)
         start = time.time()
         
         if state.abstained:
