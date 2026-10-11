@@ -315,4 +315,4 @@ Versions utilisées :
 - Entraînement GNN/QLoRA : seed 42
 
 ## Licence
-MIT
+MIT🔗 Modèle (adaptateurs LoRA) : https://huggingface.co/2Mohamed1/qa-multisaut-qlora
