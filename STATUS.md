@@ -13,8 +13,11 @@
 - **Report**: `reports/j11_neo4j.md`
 - **Note**: 45 questions missing (no triplets extracted)
 
-## Task 3 — Prédictions top-k sur test ⏳
-- Pending: gnn_best.pt (A8) → gnn_topk_test.jsonl (k=5, 300 qids)
+## Task 3 — Prédictions top-k sur test ✅
+- **Done**: Regenerated PyG datasets (train: 1466, val: 196, test: 293 graphs)
+- **Done**: GNN A8 (gnn_best.pt) predictions → `gnn_topk_test.jsonl` (293 qids, k=5)
+- **Format**: identical to val (qid, k, triplets with score)
+- **7 questions without triplets** (293/300)
 
 ## Task 4 — Évaluation finale sur test ⏳
 - Pending: Run1 fused 4-bit, config C5, metrics EM/F1/recall/format/latency
