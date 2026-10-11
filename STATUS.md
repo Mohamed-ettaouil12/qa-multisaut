@@ -26,10 +26,11 @@
 - **Supporting facts recall@5**: Val=0.9357, Test=0.9009
 - **Report**: `reports/j12_final_test.md`
 
-## Task 5 — Ablations manquantes ⏳
-- A) BM25 seul
-- B) Neo4j sans GNN (voisinage 1-2 sauts)
-- C) Neo4j + reranker (cross-encoder ou BM25)
+## Task 5 — Ablations manquantes ✅
+- **A) BM25 seul**: R@5=0.7074 (baseline fort, -0.0218 vs GNN)
+- **B) Neo4j sans GNN**: 1-2 hops + BM25, R@5=0.6634 (-0.0658 vs GNN)
+- **C) Neo4j + Cross-Encoder**: R@5=0.4426 (-0.2866 vs GNN, reranker échoue sur triplets courts)
+- **Report**: `reports/j13_ablations_final.md` avec tableau complet et analyse
 
 ## Task 6 — Taux d'hallucination ⏳
 - Pending: juge lexical/embedding sur 100 réponses val Run1_GNN
