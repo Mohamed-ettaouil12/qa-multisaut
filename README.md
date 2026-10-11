@@ -3,6 +3,84 @@
 Pipeline : KG (REBEL + Neo4j) → GNN GATv2 de scoring des triplets → LLM fine-tuné QLoRA.
 Dataset : HotpotQA (distractor). Environnement : RTX 3050 Ti 4 Go, Ubuntu.
 
+## Architecture du Pipeline
+
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│   REBEL     │───▶│   Neo4j     │───▶│   GNN       │───▶│   Top-k     │───▶│   Qwen2.5   │
+│  Extraction │    │  Stockage   │    │  GATv2      │    │  Selection  │    │  QLoRA 4-bit│
+└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+     │                  │                 │                 │                 │
+  18k triplets      17k nœuds         GATv2 + BM25      Top-5 triplets    1.5B params
+  2000 questions    43k arêtes        R@5=0.7292        + contexte         4-bit NF4
+  HotpotQA          1-2 sauts         Val R@5=0.729     pour LLM           0.6s/req
+```
+
+## Quickstart (5 commandes)
+
+```bash
+# 1. Installer
+git clone <repo> && cd qa-multisaut
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# 2. Données + Modèles (si modèles pré-entraînés disponibles)
+# Sinon: voir section Reproduction Complète ci-dessous
+docker compose up -d neo4j && sleep 20
+
+# 3. Lancer l'API
+.venv/bin/python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --workers 1
+
+# 4. Tester l'API
+curl -X POST "http://localhost:8000/ask" \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is the capital of France?"}'
+
+# 5. Lancer les tests
+.venv/bin/python -m pytest tests/ -v
+```
+
+## Métriques Clés (Test - 300 questions)
+
+| Métrique | Test | Val | Δ | Source |
+|----------|------|-----|---|--------|
+| **EM** | **0.1633** | 0.1950 | -0.0317 | j12 |
+| **F1** | **0.2636** | 0.2784 | -0.0148 | j12 |
+| **Format OK** | **99.7%** | 100.0% | -0.3% | j12 |
+| **Latence moy** | **0.607s** | 0.618s | -0.011s | j12 |
+| **Supporting Facts Recall@5** | **0.9009** | 0.9357 | -0.0348 | j12 |
+| **Hallucination (emb 0.5)** | N/A | **41%** | — | j14 |
+
+## Ablations (VAL - 140 questions évaluées)
+
+| Configuration | R@3 | R@5 | R@10 | Rang |
+|---------------|-----|-----|------|------|
+| **GNN A8 (GATv2+BM25)** | **0.5971** | **0.7292** | 0.8917 | 1 |
+| BM25 seul | 0.5339 | 0.7074 | 0.8905 | 2 |
+| Neo4j sans GNN (1-2 hops + BM25) | 0.5175 | 0.6634 | 0.8685 | 3 |
+| Neo4j + Cross-Encoder | 0.4180 | 0.4426 | 0.4572 | 4 |
+
+**Gain GNN vs BM25 seul : +0.0218 R@5**
+
+## Comparaisons Clés
+
+| Comparaison | Résultat | Source |
+|-------------|----------|--------|
+| Run1 vs Run2 | Run1 F1 0.278 > Run2 0.249 (surapprentissage Run2) | j10 |
+| Base vs Fine-tuné | Base 0.024 → Run1 0.278 (**+0.254**) | j10 |
+| Fusionné vs Adaptateur | 1.81× plus rapide, même VRAM | j10 |
+| Hallucination | 41% (emb 0.5) vs 76% (lexical) | j14 |
+
+## Limites Connues
+
+1. **Labelling paragraph-level** : 30.75% questions sans triplet positif (58.7% sur 2000 questions) → borne structurelle du recall
+2. **REBEL imparfait** : 3 966 relations uniques non normalisées, extraction bruitée
+3. **GPU 4 Go** : contraint batch size, sequence length, élimine DPO/full fine-tuning
+4. **Hallucination 41%** : modèle 1.5B + peu de données SFT (686 ex, 2 epochs)
+5. **Abstention imparfaite** : seuil `max_score_threshold=0.0` inefficace (sigmoid ≥ 0)
+6. **Pas d'évaluation test pour ablations** : calculées sur val uniquement
+7. **Entity detection basique** : substring matching ("county" générique → 3 910 triplets bruit)
+
 ## Installation
 
 ```bash
@@ -110,7 +188,7 @@ PYTHONPATH=. .venv/bin/python -m src.eval.run_evaluation --config C5 --split tes
 ### 13. Ablations Finales
 ```bash
 # BM25 seul, Neo4j sans GNN, Neo4j + Cross-Encoder
-# (scripts ad-hoc dans l'historique, résultats dans reports/j13_ablations_final.md)
+# Résultats dans reports/j13_ablations_final.md
 ```
 
 ### 14. Taux d'Hallucination
@@ -204,7 +282,7 @@ qa-multisaut/
 ├── mlruns/                # MLflow (gitignored)
 ├── docker-compose.yml     # Neo4j
 ├── requirements.txt
-├── requirements.lock      # À générer: pip freeze > requirements.lock
+├── requirements.lock      # Versions exactes
 ├── STATUS.md              # État d'avancement
 ├── rapport.md             # Rapport final
 └── README.md

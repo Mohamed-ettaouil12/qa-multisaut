@@ -359,6 +359,9 @@ class GNNScoringNode(NodeBase):
         edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
         y = torch.zeros(len(triplets), dtype=torch.float)  # dummy labels
         
+        # Batch tensor for single graph (all nodes belong to graph 0)
+        batch = torch.zeros(len(entity_list), dtype=torch.long)
+        
         data = Data(
             x=x,
             edge_index=edge_index,
@@ -368,6 +371,7 @@ class GNNScoringNode(NodeBase):
             q_emb=q_emb,
             qid=qid,
             num_nodes=len(entity_list),
+            batch=batch,
         )
         data.entity_list = entity_list
         data.triplets = [t.model_dump() for t in triplets]

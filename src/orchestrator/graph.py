@@ -101,6 +101,9 @@ def run_pipeline(question: str, config: PipelineConfig = None) -> PipelineState:
     )
     
     result = pipeline.invoke(initial_state)
+    # LangGraph returns dict, convert back to PipelineState
+    if isinstance(result, dict):
+        result = PipelineState(**result)
     return result
 
 
