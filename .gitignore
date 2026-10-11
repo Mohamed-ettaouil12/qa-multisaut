@@ -49,4 +49,8 @@ Thumbs.db
 # Temporary
 tmp/
 temp/
-*.tmp
+*.tmpcheckpoints/
+data/
+*.log
+.env
+mlruns/
